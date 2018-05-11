@@ -5,8 +5,9 @@
 **General Issues**
 1. need to be systematic and judicious about when we use pop up to tell you to save or that you have saved
  * if i have 2 inventory items opened from a search and i am switching between them to figure out which is the one i want to edit, I get a message asking me if I want to leave the form without saving even thought I haven't changed anything
- * if I click "stay & save" I then have to click ok in the pop up that tells me that I have saved
+ * if I click "stay & save" will replace with toast , delte for now I then have to click ok in the pop up that tells me that I have saved
  * I believe there have been times where I changed something on a tab form and then was able to switch to another tab without saving and without getting a warning
+
 2. When we use a pop up to fill in a look up field instead of a dropdown we have to follow the rules of Capitalization & spaces between words that they are so nutty about 
 3. I think the header font is a little big on these pop up forms
 
@@ -64,6 +65,7 @@ Check dropdown for Payment Method
 
 **Consigned From Tab**
 Labels: Notes, netPrice
+delete Shipping ID field
 
 **Editions Tab**
 publisher and printer locations not saving
