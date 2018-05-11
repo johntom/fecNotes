@@ -39,7 +39,7 @@
 add+ button gives a message when you click it, I believe it's the only one
 
 
-**Exhibition Tab***
+**Exhibition Tab**
 I think there is still an extra field here (from when you were considering choosing a reproduction to associate)
 so the column headings are off
 
