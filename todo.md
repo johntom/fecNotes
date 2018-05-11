@@ -1,5 +1,22 @@
          f965ab2fe692ef7a7ae23e20303e26319e57e043 access tolken
-     xxx    
+     xxx 
+================= May 11 ====================
+#header inventory form
+##remove MRG Location field
+##are keywords adding on the fly?
+##i think from Hoopers notes we need all 4 dimension fields
+1. Size (no need to say “unframed”)
+2. Sight size
+3. Framed size
+4. Image size
+
+
+
+
+
+
+
+
 ================= April 27 ====================
 x add offerings
 x1) as detail to Inventory
