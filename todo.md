@@ -1,21 +1,74 @@
          f965ab2fe692ef7a7ae23e20303e26319e57e043 access tolken
      xxx 
 ================= May 11 ====================
-#header inventory form
-##remove MRG Location field
-##are keywords adding on the fly?
-##i think from Hoopers notes we need all 4 dimension fields
-1. Size (no need to say “unframed”)
-2. Sight size
-3. Framed size
-4. Image size
+
+**General Issues**
+1. need to be systematic and judicious about when we use pop up to tell you to save or that you have saved
+ * if i have 2 inventory items opened from a search and i am switching between them to figure out which is the one i want to edit, I get a message asking me if I want to leave the form without saving even thought I haven't changed anything
+ * if I click "stay & save" I then have to click ok in the pop up that tells me that I have saved
+ * I believe there have been times where I changed something on a tab form and then was able to switch to another tab without saving and without getting a warning
+2. When we use a pop up to fill in a look up field instead of a dropdown we have to follow the rules of Capitalization & spaces between words that they are so nutty about 
+3. I think the header font is a little big on these pop up forms
+
+**inventory form: header fields**
+1. remove MRG Location field
+2. are keywords adding on the fly?
+3. think from Hoopers notes we need all 4 dimension fields
+ * Size (no need to say “unframed”)
+ * Sight size
+ * Framed size
+ * Image size
+
+**General Tab Issues**
+1. when on a 1:many tab form, if I click the "Update" button to edit a record, the whole page tries to reload and it gets stuck
+2. These are (I think) all the tabs that use the pop up forms which need to have the formatting/wording changed. 
+ * Conserved By
+ * Sold To
+ * Purchased From
+ * Loan To
+ * Consigned To
+ * Consigned From  (there are 2 pop ups on this tab)
+
+3. These are the things that have to be checked
+ * name of form: make sure the name corresponds to the form and that it has a space between words: Consigned To not Consignedto
+ * the text where it says "type any characters of the Purchased From (not PurchasedFrom) to select
+ * make sure the words in the box that you are typing into correspond to the correct field (see Purchased From & loan To)
 
 
+**Prov Tab**
+add+ button gives a message when you click it, I believe it's the only one
 
 
+**Exhibition Tab***
+I think there is still an extra field here (from when you were considering choosing a reproduction to associate)
+so the column headings are off
 
+**Conservation Tab**
+1. Still has (title ct:) in the header of the tab
+2. Labels that need correction: label ConservedBy, InvoiceNo and Cmd
 
+**Sold To Tab**
+Check dropdown for Payment Method
 
+**Purchased From Tab**
+1. still has the word "Purchased" needs to conform to Sold To tab 
+2. correct PaymentNo and Notes
+
+**Loan To  Tab**
+1. Ins Value,  Ins Amt,  MRG Signed, Institution Signed, Note, Updated Fact Sheet
+2. We have to check on these fields: cofl? Artwork field date? 
+
+**Consigned To**
+1. check column labels
+2. not sure if they need them but are created and modified dates being generated?
+
+**Consigned From Tab**
+Labels: Notes, netPrice
+
+**Editions Tab**
+publisher and printer locations not saving
+
+================= May 11 End ====================
 
 ================= April 27 ====================
 x add offerings
