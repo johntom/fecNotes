@@ -1,3 +1,8 @@
+var obj = { "name":"John", "age":30, "city":"New York"};
+//var myJSON = obj;
+var myJSON = JSON.stringify(obj);
+
+
          f965ab2fe692ef7a7ae23e20303e26319e57e043 access tolken
      xxx 
 ================= May 11 ====================
