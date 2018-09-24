@@ -2,8 +2,20 @@
 ## How to add a plugin
 nvm use 9.11.2
 1. au new (take all defaults) or clone AUClean, AUCleanBase01292018
-2. au install aurelia-dialog or desired component
-3. modify C:\Frameworks\Frontend\AUClean3\aurelia_project\aurelia.json 
+see AUClean3 to clone created z7 Sep 24 2018
+2. au install aurelia-dialog or desired component (au install  select2)
+3. modify C:\Frameworks\Frontend\AUClean3\aurelia_project\aurelia.json 9 ( see 3a)
+
+
+3. au build - this will generate C:\Frameworks\Frontend\AUClean3\scripts\aurelia-dialog.js
+4. create a new account in FEC i called it bundles
+5. create a directory called aurelia-dialog
+6. copy  file created in step 3 aurelia-dialog.js to bundles\aurelia-dialog
+7. add     "aurelia-dialog": "http://5924b98cbd966f546312882f.blob.core.windows.net/bundles/aurelia-dialog/aurelia-dialog"
+      to paths
+
+3a.
+aurelia.json
 adding the following
 {
 "name": "aurelia-dialog",
@@ -176,12 +188,6 @@ adding the following
   }
 }
 
-3. au build - this will generate C:\Frameworks\Frontend\AUClean3\scripts\aurelia-dialog.js
-4. create a new account in FEC i called it bundles
-5. create a directoru called aurelia-dialog
-6. copy  file created in step 3 aurelia-dialog.js to bundles\aurelia-dialog
-7. add     "aurelia-dialog": "http://5924b98cbd966f546312882f.blob.core.windows.net/bundles/aurelia-dialog/aurelia-dialog"
-      to paths
 	  <!doctype html>
 <html>
   <head>
